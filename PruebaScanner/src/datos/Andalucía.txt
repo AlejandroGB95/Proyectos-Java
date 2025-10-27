@@ -1,0 +1,14 @@
+Provincias de la comunidad: Andalucía(8)
+-------------------------------------------------
+
+	idProv		Abr:Provincia Cpostal
+	1.- [13]	ALM:Almería	(4)
+	2.- [45]	CDZ:Cádiz	(11)
+	3.- [14]	CBA:Córdoba	(14)
+	4.- [30]	GND:Granada	(18)
+	5.- [42]	HLV:Huelva	(21)
+	6.- [50]	JAE:Jaén	(23)
+	7.- [19]	MAL:Málaga	(29)
+	8.- [12]	SVL:Sevilla	(41)
+
+	Fin del listado...

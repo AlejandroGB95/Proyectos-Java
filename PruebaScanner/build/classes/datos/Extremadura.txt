@@ -1,0 +1,8 @@
+Provincias de la comunidad: Extremadura(2)
+-------------------------------------------------
+
+	idProv		Abr:Provincia Cpostal
+	1.- [25]	BDJ:Badajoz	(6)
+	2.- [41]	CAC:Cáceres	(10)
+
+	Fin del listado...
