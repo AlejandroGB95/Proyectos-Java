@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../view/editdialog.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agenda.AlumnoEditDialogController">
+   <children>
+      <GridPane layoutX="29.0" layoutY="58.0" prefHeight="254.0" prefWidth="545.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="268.0" minWidth="10.0" prefWidth="205.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="340.0" minWidth="10.0" prefWidth="340.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="91.0" minHeight="2.0" prefHeight="39.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="190.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Alumno" />
+            <Label text="Nie" GridPane.rowIndex="1" />
+            <Label text="Localidad" GridPane.rowIndex="2" />
+            <Label text="Grupo" GridPane.rowIndex="3" />
+            <Label text="Postal Code" GridPane.rowIndex="4" />
+            <Label text="Foto" GridPane.rowIndex="5" />
+            <TextField fx:id="alumnoNombre" GridPane.columnIndex="1" />
+            <TextField fx:id="nie" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="localidad" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="grupo" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="cp" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="foto" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         </children>
+      </GridPane>
+      <Button fx:id="ok" layoutX="366.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="25.0" prefWidth="97.0" text="OK" />
+      <Button fx:id="cancel" layoutX="477.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="25.0" prefWidth="91.0" text="Cancel" />
+   </children>
+</AnchorPane>

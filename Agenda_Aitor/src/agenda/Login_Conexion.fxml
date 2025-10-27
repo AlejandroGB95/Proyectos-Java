@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agenda.Login_ConexionController">
+   <children>
+      <Label layoutX="144.0" layoutY="29.0" text="CONEXIÓN A LA BASE DE DATOS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="89.0" text="Usuario:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usuario" layoutX="266.0" layoutY="86.0" prefHeight="25.0" prefWidth="227.0" promptText="Introduce el usuario..." />
+      <TextField fx:id="contraseña" layoutX="266.0" layoutY="134.0" prefHeight="25.0" prefWidth="227.0" promptText="Introduce la contraseña..." />
+      <Label layoutX="150.0" layoutY="137.0" text="Contraseña:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="191.0" text="Nombre de la BD:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreBD" layoutX="266.0" layoutY="188.0" prefHeight="25.0" prefWidth="227.0" promptText="Introduce el nombre..." text="instituto" />
+      <TextField fx:id="servidorBD" layoutX="266.0" layoutY="279.0" prefHeight="25.0" prefWidth="227.0" promptText="Introduce el servidor..." text="localhost" />
+      <Label layoutX="123.0" layoutY="282.0" text="Servidor de la BD:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="328.0" text="Puerto:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="puertoBD" layoutX="266.0" layoutY="325.0" prefHeight="25.0" prefWidth="227.0" promptText="Introduce el puerto..." />
+      <Label layoutX="134.0" layoutY="235.0" text="Tipo de la BD:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="tipoBD" layoutX="266.0" layoutY="232.0" prefHeight="25.0" prefWidth="227.0" promptText="Selecciona un tipo..." />
+      <Button fx:id="BotCancelar" layoutX="368.0" layoutY="386.0" mnemonicParsing="false" onAction="#clickCancelar" prefHeight="25.0" prefWidth="102.0" text="Cancelar" textFill="#e83939" />
+      <Button fx:id="BotConectar" layoutX="154.0" layoutY="386.0" mnemonicParsing="false" onAction="#clickConectar" prefHeight="25.0" prefWidth="102.0" text="Conectar" textFill="#1e6b1e" />
+   </children>
+</AnchorPane>

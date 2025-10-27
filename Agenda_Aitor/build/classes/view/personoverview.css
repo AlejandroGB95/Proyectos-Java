@@ -1,0 +1,35 @@
+.table-view {
+    -fx-background-color: red;
+    -fx-table-header-border-color: black;
+    -fx-padding: 10;
+}
+
+
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-text-fill: wheat;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: lightseagreen;
+}
+#alumnoColumn{
+     -fx-font-size: 15pt;
+     -fx-text-fill: red;
+     
+}
+.column-header{
+    -fx-background-color: black;
+}
+.table-row-cell{
+    -fx-background-color: beige;
+}
+.button{
+    -fx-border-color: red;
+    -fx-border-width: 2;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    
+    -fx-font-size: 11pt;
+    -fx-text-fill: red;
+}
