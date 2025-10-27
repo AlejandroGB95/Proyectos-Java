@@ -1,0 +1,8 @@
+		LONGITUD
+--------------------------------------------------------------------------------------
+[Pueblo con el nombre mas largo : Villarcayo de Merindad de Castilla la Vieja ( Latitud: 42.938377, Longitud: -3.574548), Burgos, Castilla y León
+]
+[Pueblo con el nombre mas corto : Ea ( Latitud: 43.38013, Longitud: -2.585735), Vizcaya, País Vasco
+, Pueblo con el nombre mas corto : Oi ( Latitud: 55.55445, Longitud: -81.48445), Málaga, Andalucía
+]
+
